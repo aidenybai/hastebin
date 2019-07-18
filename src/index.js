@@ -1,8 +1,7 @@
 import fetch from 'node-fetch';
 
-const Hastebin = async (text, options = {}) => {
-  if (!text) throw new Error('No input provided');
-
+const hastebin = async (text, options = {}) => {
+  if (!text) throw new Error('No text provided');
   if (typeof options === 'string') options = { url: 'https://hastebin.com', extension: options };
 
   const url = 'url' in options ? options.url : 'https://hastebin.com';
@@ -21,4 +20,4 @@ const Hastebin = async (text, options = {}) => {
   return `${url}/${key}.${extension}`;
 };
 
-export default Hastebin;
+export default hastebin;
