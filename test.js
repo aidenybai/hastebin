@@ -1,8 +1,8 @@
 const hastebin = require('./dist/index.js');
 
-hastebin('your code here', { extension: 'txt' /* not required */ })
+hastebin('your code here', { extension: 'txt' })
   .then((haste) => {
-    console.log(haste); // https://hastebin.com/example.txt
+    console.log(haste);
   })
   .catch((error) => {
     console.error(error);

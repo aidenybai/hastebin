@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+const fetch = require('node-fetch');
 
 const hastebin = async (text, options = {}) => {
   if (!text) throw new Error('No text provided');

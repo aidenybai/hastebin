@@ -2,11 +2,9 @@
   "name": "@abai/hastebin",
   "version": "0.0.1",
   "description": "Module for creating hastebins",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "build": "yarn pretty && yarn babel",
-    "babel": "babel src --out-dir dist",
     "pretty": "prettier --write \"src/*.js\""
   },
   "repository": "https://github.com/cringiest/hastebin.git",
@@ -25,11 +23,6 @@
     "node": ">=6.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.0",
-    "@babel/core": "^7.5.0",
-    "@babel/preset-env": "^7.5.2",
-    "babel-plugin-add-module-exports": "^1.0.2",
-    "babel-preset-minify": "^0.5.0",
     "prettier": "^1.18.2",
     "typescript": "^3.5.3"
   },
