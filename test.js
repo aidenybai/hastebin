@@ -1,4 +1,4 @@
-const hastebin = require('./dist/index.js');
+const hastebin = require('./index.js');
 
 hastebin('your code here', { extension: 'txt' })
   .then((haste) => {

@@ -20,4 +20,4 @@ const hastebin = async (text, options = {}) => {
   return `${url}/${key}.${extension}`;
 };
 
-export default hastebin;
+module.exports = hastebin;
