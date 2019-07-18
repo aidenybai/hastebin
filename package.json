@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "pretty": "prettier --write \"src/*.js\""
+    "pretty": "prettier --write \"*.js\""
   },
   "repository": "https://github.com/cringiest/hastebin.git",
   "author": "Aiden Bai <mail.contraband@gmail.com>",

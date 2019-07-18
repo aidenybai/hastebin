@@ -1,9 +1,6 @@
-src/
 node_modules/
 yarn.lock
-.babelrc
 .git/
-test/
 .prettierrc
 LICENSE.txt
 .gitignore
