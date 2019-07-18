@@ -1,0 +1,23 @@
+{
+  "name": "@abai/hastebin",
+  "version": "0.0.1",
+  "description": "Module for creating hastebins",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/cringiest/hastebin.git",
+  "author": "Aiden Bai <mail.contraband@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "hastebin",
+    "haste-server",
+    "haste",
+    "paste"
+  ],
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
